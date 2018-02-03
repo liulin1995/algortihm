@@ -5,7 +5,7 @@ public class FixedCapacityStackOfString{
     
     public FixedCapacityStackOfString(int capacity)
     {
-        S=new String[capacity];
+        s=new String[capacity];
     }
     public boolean isEmpty()
     {
@@ -13,11 +13,11 @@ public class FixedCapacityStackOfString{
     }
     public void push(String item)
     {
-        S[N++]=item;
+        s[N++]=item;
     }
     
     public String pop()
     {
-        return [--N];
+        return s[--N];
     }
 }
